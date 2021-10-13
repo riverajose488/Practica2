@@ -1,0 +1,41 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.login {
+  margin: 30px;
+  display: flex;
+  background: white;
+  justify-content: center;
+}
+
+.jumbotron{
+  margin-top: 20px;
+  background: blue;
+}
+
+.primario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+}
+
+.lead {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.jumbotron p {
+  margin: 0 0 10px;
+}
+
+.one {
+  grid-column: 2;
+  grid-row: 2;
+}

@@ -1,0 +1,58 @@
+<body>
+
+    <div class="nombre">Hola</div>
+    
+    
+<div class="container ">
+    <div class="row col-l-3 panel"> 
+        <div>Ultimos Mensajes</div> 
+    </div>
+
+
+<div class="jumbotron col-l-6 panel">
+    <h2>Nuevo Usuario</h2>
+
+<div>
+    <p class="lead">
+        <span>Nombre Completo :</span>
+        <input type="text" [(ngModel)]="usuario.identifier">
+    </p>
+</div>
+
+<div>
+    <p class="lead">
+        <span>Correo:</span>
+        <input type="text" [(ngModel)]="usuario.email">
+    </p>
+</div>
+
+<div>
+    <p class="lead">
+        <span>Password:</span>
+        <input type="text" [(ngModel)]="usuario.password">
+    </p>
+</div>
+
+<div>
+    <button type="button" class="btn btn-primary" (click)="saveNewUsuario()">Crear</button>
+</div>
+</div>
+<div class="row col-l-9 panel"> 
+    <div>Estadistica de Uso </div>
+
+    <div>
+        <p class="lead">
+            <span>Estudiantes Registrados: {{usuariosSize}}</span>
+        </p>
+    </div>
+ 
+    </div>
+</div>
+<button class="btn btn-success pull-right" ><a routerLink="/login/">Registrate</a></button>
+<button class="btn btn-success pull-right" ><a routerLink="/lista/">lista</a></button>
+<button class="btn btn-success pull-right" ><a routerLink="/hola/">Salir</a></button>
+
+
+<div class="nombre"> 12/10/2021 </div>
+</body>
+

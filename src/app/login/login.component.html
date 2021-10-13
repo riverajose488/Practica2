@@ -1,0 +1,19 @@
+<div class="wrapper">
+  <div class="one">
+    <div class="jumbotron">
+      <h2 class="login">Login</h2>
+        <div>
+          <p class="lead">
+            <span>Usuario:</span>
+            <input type="text" [(ngModel)]="usuario.identifier">
+          </p>
+          <div class="primario">
+            <button type="button" class="btn btn-primary"  (click)="searchUsuario()">Entrar</button>
+          </div>
+          <div class="primario">
+            <button class="btn btn-success pull-right" ><a routerLink="/registro/">Registrate</a></button>
+          </div>
+      </div> 
+    </div> 
+  </div>
+</div>

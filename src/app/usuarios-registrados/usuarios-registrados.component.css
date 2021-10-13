@@ -1,0 +1,49 @@
+  @media only screen and (min-width: 1024px) {
+    .col-l-3 {
+      width: 30%;
+    }
+    .col-l-6 {
+      width: 30%;
+    }
+    .col-l-9 {
+      width: 32.5%;
+    }
+  }
+  
+.nombre{
+    margin: 10px;
+    background:white;
+    border: 3px solid black;
+	font-family:broadway;
+    font-size: x-large;
+    text-align: center;
+}
+
+.row {
+    margin: 10px;
+    display: inline-block;
+    background: lightgray;
+}
+
+.jumbotron{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.body-content {
+    padding: 0;
+}
+
+.lead {
+    font-size: 21px;
+    display: inline-block !important;
+}
+
+.jumbotron p {
+    margin: 0 0 10px;
+    display: inline-block;
+}
+
+.jumbotron {
+    background: blue;
+}

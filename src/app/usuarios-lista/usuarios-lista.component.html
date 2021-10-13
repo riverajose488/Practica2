@@ -1,0 +1,14 @@
+<div class="jumbotron">
+    <h2>
+        Listado de Usuarios
+    </h2>
+    <div *ngIf = "! usuarioList.length"> No hay Usuarios Disponibles</div>
+</div>
+    <div>
+    <article *ngFor = "let item of usuarioList">
+        <span>{{item.identifier}}</span>
+        <span>{{item.email}}</span>
+        <span>{{item.password}}</span>
+    </article>
+</div>
+<button class="btn btn-success pull-right" ><a routerLink="/registro/">Registrate</a></button>
